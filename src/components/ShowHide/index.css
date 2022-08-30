@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container{
+    background-image: linear-gradient(to right, #fa7257, #fc63a7);
+margin-top: 4rem;
+margin-bottom: 20rem;
+margin-right: 15rem;
+margin-left: 15rem;
+height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.heading{
+    color: aliceblue;
+}
+.btn-container{
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+}
+button{
+    height: 2rem;
+    width: 11.9rem;
+    border-radius: 12px;
+    border-width: 0;
+    border: 0.1rem ;
+    margin-bottom: 2rem;
+    color: #dd1264;
+    font-weight: bold;    
+}
+button:hover{
+    border: 1px solid black;
+}
+p{
+    font-weight: bold;
+    font-size: 24px;
+}
+.displayName{    
+    height: 5rem;
+    width: 12rem;
+    background-color: #fddddb;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.hideName{
+    visibility: hidden;
+}
